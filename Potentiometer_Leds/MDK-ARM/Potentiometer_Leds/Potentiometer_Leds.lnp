@@ -1,0 +1,30 @@
+--cpu Cortex-M0+
+"potentiometer_leds\startup_stm32l073xx.o"
+"potentiometer_leds\main.o"
+"potentiometer_leds\stm32l0xx_it.o"
+"potentiometer_leds\stm32l0xx_hal_msp.o"
+"potentiometer_leds\stm32l0xx_hal_adc.o"
+"potentiometer_leds\stm32l0xx_hal_adc_ex.o"
+"potentiometer_leds\stm32l0xx_hal.o"
+"potentiometer_leds\stm32l0xx_hal_i2c.o"
+"potentiometer_leds\stm32l0xx_hal_i2c_ex.o"
+"potentiometer_leds\stm32l0xx_hal_rcc.o"
+"potentiometer_leds\stm32l0xx_hal_rcc_ex.o"
+"potentiometer_leds\stm32l0xx_hal_flash_ramfunc.o"
+"potentiometer_leds\stm32l0xx_hal_flash.o"
+"potentiometer_leds\stm32l0xx_hal_flash_ex.o"
+"potentiometer_leds\stm32l0xx_hal_gpio.o"
+"potentiometer_leds\stm32l0xx_hal_dma.o"
+"potentiometer_leds\stm32l0xx_hal_pwr.o"
+"potentiometer_leds\stm32l0xx_hal_pwr_ex.o"
+"potentiometer_leds\stm32l0xx_hal_cortex.o"
+"potentiometer_leds\stm32l0xx_hal_tim.o"
+"potentiometer_leds\stm32l0xx_hal_tim_ex.o"
+"potentiometer_leds\stm32l0xx_hal_uart.o"
+"potentiometer_leds\stm32l0xx_hal_uart_ex.o"
+"potentiometer_leds\system_stm32l0xx.o"
+--library_type=microlib --strict --scatter "Potentiometer_Leds\Potentiometer_Leds.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Potentiometer_Leds.map" -o Potentiometer_Leds\Potentiometer_Leds.axf

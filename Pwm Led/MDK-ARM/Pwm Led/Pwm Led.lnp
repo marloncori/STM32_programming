@@ -1,0 +1,28 @@
+--cpu Cortex-M0+
+"pwm led\startup_stm32l073xx.o"
+"pwm led\main.o"
+"pwm led\stm32l0xx_it.o"
+"pwm led\stm32l0xx_hal_msp.o"
+"pwm led\stm32l0xx_hal_tim.o"
+"pwm led\stm32l0xx_hal_tim_ex.o"
+"pwm led\stm32l0xx_hal.o"
+"pwm led\stm32l0xx_hal_i2c.o"
+"pwm led\stm32l0xx_hal_i2c_ex.o"
+"pwm led\stm32l0xx_hal_rcc.o"
+"pwm led\stm32l0xx_hal_rcc_ex.o"
+"pwm led\stm32l0xx_hal_flash_ramfunc.o"
+"pwm led\stm32l0xx_hal_flash.o"
+"pwm led\stm32l0xx_hal_flash_ex.o"
+"pwm led\stm32l0xx_hal_gpio.o"
+"pwm led\stm32l0xx_hal_dma.o"
+"pwm led\stm32l0xx_hal_pwr.o"
+"pwm led\stm32l0xx_hal_pwr_ex.o"
+"pwm led\stm32l0xx_hal_cortex.o"
+"pwm led\stm32l0xx_hal_uart.o"
+"pwm led\stm32l0xx_hal_uart_ex.o"
+"pwm led\system_stm32l0xx.o"
+--library_type=microlib --strict --scatter "Pwm Led\Pwm Led.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Pwm Led.map" -o "Pwm Led\Pwm Led.axf"

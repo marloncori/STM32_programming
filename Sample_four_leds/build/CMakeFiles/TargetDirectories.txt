@@ -1,0 +1,3 @@
+C:/Users/NUC/STM32CubeIDE/workspace_1.8.0/Sample_four_leds/build/CMakeFiles/Sample_four_leds.dir
+C:/Users/NUC/STM32CubeIDE/workspace_1.8.0/Sample_four_leds/build/CMakeFiles/edit_cache.dir
+C:/Users/NUC/STM32CubeIDE/workspace_1.8.0/Sample_four_leds/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+# ninja log v5
+36	963	6691723692115434	CMakeFiles/Sample_four_leds.dir/Core/Src/sysmem.c.obj	834d5df99472017d
+28	741	6691723690397225	CMakeFiles/Sample_four_leds.dir/Core/Src/syscalls.c.obj	b5263dda1b90f3a5
+878	1172	6691723693677428	CMakeFiles/Sample_four_leds.dir/Core/Startup/startup_stm32l073rztx.s.obj	5bb20acd784cb1b4
+115	1131	6691723693989832	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_dma.c.obj	5f5cda5ceacf864b
+21	876	6691723691334413	CMakeFiles/Sample_four_leds.dir/Core/Src/system_stm32l0xx.c.obj	aa47ff79e8a8e1f0
+14	971	6691723692427821	CMakeFiles/Sample_four_leds.dir/Core/Src/stm32l0xx_it.c.obj	3087f957b6afa6ec
+4	1335	6691723696020421	CMakeFiles/Sample_four_leds.dir/Core/Src/main.c.obj	c280ef8afbe9d291
+746	1662	6691723699613029	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_exti.c.obj	84f6e675a137ce06
+964	1900	6691723702112269	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_rcc.c.obj	72acce2c97cfcfad
+1132	1903	6691723702112269	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_pwr.c.obj	2d7db914d47aea35
+973	1905	6691723702112269	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_gpio.c.obj	68c1680272d4aec
+1174	2003	6691723703361810	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_utils.c.obj	ae78cda21c9b06d2
+1336	2078	6691723704142807	CMakeFiles/Sample_four_leds.dir/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_usart.c.obj	1929d1829de667e1
+8	641	6691724787118395	Sample_four_leds.elf	33f88b42ad1d0d11

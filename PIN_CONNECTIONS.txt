@@ -1,0 +1,26 @@
+
+Project 1 = "Five Leds"
+Project 2 = "Five Leds and Button"
+Project 3 = "Five Leds, Button and Sensor"
+Project 4 = "Five Leds and Potentiometer"
+
+#################################################
+    STM32L073RZ Pin Connections 03-13-2022
+#################################################
+ 
+ Left side:                    FUNCTION   
+    (A4) PC1  - potentiometer {ADC_IN11}
+      or PB9                  {I2C1_SDA}
+ Right side:
+    (D7) PA8  - IR sensor
+    ----
+    (D6) PB10 - red led       {TIM2_CH3}
+    (D5) PB4  - blue led      {TIM12_CH1}
+    (D4) PB5  - green led          -
+    (D3) PB3  - yellow led    {TIM2_CH2} 
+    ----
+    (D2) PA10 - push button [pull-down]
+
+    User Led -> PA5 (LD2)
+    Other: VCC: 3.3 volts + GND
+################################################# 
